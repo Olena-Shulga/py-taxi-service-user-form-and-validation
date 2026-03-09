@@ -3,7 +3,7 @@ from django.contrib.auth import get_user_model
 from django.contrib.auth.forms import UserCreationForm
 from django.core.validators import RegexValidator, MaxLengthValidator
 
-from taxi.models import Driver, Car
+from taxi.models import Car
 
 
 class CarForm(forms.ModelForm):
